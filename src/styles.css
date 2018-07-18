@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+
+.espacios{
+margin-top: 90px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.avatar{
+border-radius: 30px;
+float:left;
+ margin:5px;
+
+
+}
+
+@media screen and (max-width: 800px)
+  {
+
+    .espacios{
+    font-family: 'Lato', sans-serif;
+      margin-top: auto;
+      display:inline-block;
+      margin:0 auto 0 auto;
+}
+
+      avatar{
+      border-radius: 30px;
+        display:inline-block;
+       margin:0 auto 0 auto;
+
+      }
+
+  }
