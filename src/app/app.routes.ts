@@ -1,10 +1,15 @@
 import { RouterModule, Routes } from '@angular/router';
 
-import { IndexComponent } from './component/index/index.component';
-import { EducacionComponent } from './component/educacion/educacion.component';
-import { BodyComponent } from './component/body/body.component';
-import {ExperienciaComponent} from './component/experiencia/experiencia.component';
-import { PortafolioItemComponent } from './component/portafolio-item/portafolio-item.component';
+
+
+import {
+IndexComponent,
+  EducacionComponent,
+  BodyComponent,
+  ExperienciaComponent,
+  PortafolioItemComponent
+} from './component/index.paginas';
+
 
 
 const app_routes: Routes = [
