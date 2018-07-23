@@ -6,7 +6,7 @@ import {DatosService} from "./services/datos.service";
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  constructor (
-    public _data:DatosService
-  ){}
+  constructor ( public _data:DatosService){
+  
+  }
 }

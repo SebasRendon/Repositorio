@@ -17,6 +17,10 @@ float:left;
 
 }
 
+.tipletra{
+  font-family: 'Alegreya', serif;
+}
+
 @media screen and (max-width: 800px)
   {
 

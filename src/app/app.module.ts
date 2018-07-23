@@ -4,7 +4,7 @@ import { HttpModule } from '@angular/http';
 //servicios
 import {DatosService} from "./services/datos.service";
 //rutas
-
+import {app_routing} from "./app.routes";
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
@@ -12,6 +12,10 @@ import { BodyComponent } from './component/body/body.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { IndexComponent } from './component/index/index.component';
 import { EducacionComponent } from './component/educacion/educacion.component';
+import { ExperienciaComponent } from './component/experiencia/experiencia.component';
+import { PortafolioItemComponent } from './component/portafolio-item/portafolio-item.component';
+
+
 
 @NgModule({
   declarations: [
@@ -20,11 +24,17 @@ import { EducacionComponent } from './component/educacion/educacion.component';
     BodyComponent,
     FooterComponent,
     IndexComponent,
-    EducacionComponent
+    EducacionComponent,
+    ExperienciaComponent,
+    PortafolioItemComponent
+    
+
   ],
   imports: [
     BrowserModule,
- HttpModule
+ HttpModule,
+ app_routing
+
 
 
 
