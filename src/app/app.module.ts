@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { BodyComponent } from './component/body/body.component';
 import { FooterComponent } from './component/footer/footer.component';
-import { IndexComponent } from './component/index/index.component';
+import { InicioComponent } from './component/inicio/inicio.component';
 import { EducacionComponent } from './component/educacion/educacion.component';
 import { ExperienciaComponent } from './component/experiencia/experiencia.component';
 import { PortafolioItemComponent } from './component/portafolio-item/portafolio-item.component';
@@ -23,11 +23,11 @@ import { PortafolioItemComponent } from './component/portafolio-item/portafolio-
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    IndexComponent,
+    InicioComponent,
     EducacionComponent,
     ExperienciaComponent,
     PortafolioItemComponent
-    
+
 
   ],
   imports: [
