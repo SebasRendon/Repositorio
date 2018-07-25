@@ -11,7 +11,7 @@ export class HeaderComponent  {
   constructor(public _ds:DatosService,
                public router:Router) {
 
-  }
+               }
 
 
 }
