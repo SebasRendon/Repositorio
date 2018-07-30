@@ -11,7 +11,7 @@
       </ul>
       <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2018 PORTFOLIO </span>All Right Reserved.</p>
     </div>
-    <div class="ae-grid__item item-lg-4 au-xs-ta-center">
+    <div *ngIf="!_ds.cargando" class="ae-grid__item item-lg-4 au-xs-ta-center">
 
       <a [href]="_ds.datos.facebook" target="_blank" class="rk-social-btn ">
         <svg>
