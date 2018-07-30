@@ -1,35 +1,45 @@
-<div class="w3-panel w3-blue w3-card-4">
-  <h3>Cargo Actual</h3>
-  <p>Lider de auditoria y pruebas en NetW Consulting.</p>
-</div>
 
-<section class="ae-container ae-container-fluid--inner rk-portfolio">
-<br/>
-  <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
 
-  <a routerLink="inicio" class="rk-item ae-masonry__item">
-    <img src="assets/img/servicios.png" alt="">
-      <div class="item-meta">
-        <h2>Practicante</h2>
-        <p>Servicios Nutresa</p>
-      </div>
-    </a>
 
-      <a routerLink="inicio" class="rk-item ae-masonry__item">
-        <img src="assets/img/cocrealab.png" alt="">
-      <div class="item-meta">
-        <h2>Colaborador</h2>
-        <p>Cocrealab</p>
-      </div>
-    </a>
 
-      <a routerLink="inicio" class="rk-item ae-masonry__item">
-        <img src="assets/img/logo.png" alt="">
-      <div class="item-meta">
-        <h2>Aplicativo Web</h2>
-        <p>Administra tu Finca</p>
-      </div>
-    </a>
+<section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+
+  <div class="ae-masonry ae-masonry-md-4 ae-masonry-sm-4 ae-masonry-sm-3">
+    <div class="w3-panel w3-blue w3-card-4">
+      <h3>Cargo Actual</h3>
+      <p>Lider de auditoria y pruebas en NetW Consulting.</p>
+    </div>
+
+    <div class="rk-item ae-masonry__item">
+        <a [routerLink]="['/item','servicios']">
+              <img src="assets/img/logo.png" alt="">
+              <div class="item-meta">
+                <h2>Aplicativo Web</h2>
+                <p>Administra tu Finca</p>
+              </div>
+          </a>
+    </div>
+
+    <div class="rk-item ae-masonry__item">
+        <a [routerLink]="['/item','servicios']">
+                <img src="assets/img/cocrealab.png" alt="">
+              <div class="item-meta">
+                <h2>Colaborador</h2>
+                <p>Cocrealab</p>
+              </div>
+          </a>
+    </div>
+
+    <div class="rk-item ae-masonry__item">
+        <a [routerLink]="['/item','servicios']">
+          <img src="assets/img/servicios.png" alt="">
+            <div class="item-meta">
+              <h2>Practicante</h2>
+              <p>Servicios Nutresa</p>
+            </div>
+          </a>
+    </div>
+
 
 
 

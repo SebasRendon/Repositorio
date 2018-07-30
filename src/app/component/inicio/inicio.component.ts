@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {DatosService} from '../../services/datos.service';
+
 
 @Component({
   selector: 'app-inicio',
@@ -7,7 +9,10 @@ import { Component } from '@angular/core';
 })
 export class InicioComponent  {
 
-  constructor() { }
+  constructor(public _ds:DatosService) {
+
+
+  }
 
 
 

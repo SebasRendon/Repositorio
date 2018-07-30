@@ -14,7 +14,7 @@ console.log("prueba jhoan");
 this.cargando=true;
 this.http.get("https://pagina-web-e87a5.firebaseio.com/datos_personales.json")
 .subscribe(respuesta => {
-//  console.log(respuesta.json());
+  console.log(respuesta.json());
   this.datos=respuesta.json();
   this.cargando=false;
 });
@@ -24,6 +24,7 @@ this.http.get("https://pagina-web-e87a5.firebaseio.com/datos_personales.json")
    public cargar_experiencia( cod:string ){
   return this.http.get(`https://pagina-web-e87a5.firebaseio.com/experiencia/${ cod }.json`)
 }
+
 
 
 
